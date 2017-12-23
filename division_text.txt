@@ -1,0 +1,30 @@
+0
+mov r0, #0;
+100
+load r1, [1];
+1000
+load r2, [2];
+1100
+mov r3, #0;
+10000
+mov r4, #1;
+10100
+mov r5, #0;
+11000
+cmp r1,r2
+11100
+ble str:
+100000
+loop: mov r5, #0;
+100100
+sub r1, r1, r2;
+101000
+add r3, r3, #1;
+101100
+cmp r2, r1;
+110000
+ble loop:
+110100
+str: store r3, [3];
+111000
+store r1, [4];

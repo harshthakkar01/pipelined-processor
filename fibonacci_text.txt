@@ -1,0 +1,17 @@
+	mov r0, #0;
+	mov r1, #0; 
+	mov r2, #1; 
+	load r3, [5]; 
+	mov r4, #0;
+	mov r6, [6]; 
+	cmp r4, r3; 
+	beq exit 
+loop: 	add r5,r1,r2; 
+	add r1,r2,r0; 
+	add r2,r5,r0; 
+	add r4,r4,#1; 
+	store r5, [r6]; 
+	add r6 ,r6, #1; 
+	cmp r4, r3;
+	bne loop 
+exit: 	mov r5, #0;
