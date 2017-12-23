@@ -2,11 +2,11 @@ NAME
 5 stage pipelined processor written in Verilog
 
 DESCRIPTION
-•	32-bit processor implemented in Verilog
-•	5 stage pipeline (Fetch, Decode, Execute, Memory access, Write back)
-•	branch detection in decode (stage 2) and start running from branch address
-•	supports stalls to avoid read after write (RAW) and other hazards
-•	can forward data from memory (stage 4) and write back (stage 5) to avoid stalls
+  •	  32-bit processor implemented in Verilog
+  •	  5 stage pipeline (Fetch, Decode, Execute, Memory access, Write back)
+  •	  branch detection in decode (stage 2) and start running from branch address
+  •	  supports stalls to avoid read after write (RAW) and other hazards
+  •	  can forward data from memory (stage 4) and write back (stage 5) to avoid stalls
 
 Major part of the processor design was inspired by the book “Computer Organization and Design” by David A. Patterson and John L. Hennessy.
 
