@@ -18,7 +18,6 @@ REQUIREMENTS
 This project requires a Verilog simulator such as Xilinx ISE, ModelSim. 
 
 AUTHOR
-
 Harsh Thakkar
 harshthakkar456@gmail.com
 http://github.com/harshthakkar01
