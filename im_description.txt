@@ -1,0 +1,4 @@
+ADDIU r5, r5, #16;
+ADDIU r1, r1, #2;
+Sw r1, offset[3];
+ADDIU r3, r3, #1;
